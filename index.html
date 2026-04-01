@@ -419,12 +419,55 @@
       color: #9CA3AF;
     }
 
+    /* ── About ── */
+    .about {
+      padding: 48px 0;
+      text-align: center;
+      border-top: 1px solid #E5E7EB;
+    }
+
+    .about p {
+      max-width: 640px;
+      margin: 0 auto;
+      color: #666666;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .about a {
+      color: #5C2018;
+      text-decoration: none;
+    }
+
+    .about a:hover {
+      text-decoration: underline;
+    }
+
     /* ── Footer ── */
     footer {
-      padding: 32px 0;
+      padding: 24px 0;
       text-align: center;
       font-size: 14px;
       color: #9CA3AF;
+      border-top: 1px solid #E5E7EB;
+    }
+
+    .footer-links {
+      margin-top: 8px;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #9CA3AF;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+      color: #5C2018;
     }
 
     /* ── Touch-friendly targets ── */
@@ -690,10 +733,22 @@
     </div>
   </section>
 
+  <!-- About -->
+  <section class="about">
+    <div class="container">
+      <p>AnyWardrobe is built by <strong>AnyCognition Inc.</strong>, based in Ottawa, Canada. We're building AI-powered tools that simplify everyday life — starting with your closet. Questions? Reach us at <a href="mailto:admin@anywardrobe.com">admin@anywardrobe.com</a>.</p>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2026 AnyWardrobe. All rights reserved.</p>
+      <p>&copy; 2026 AnyCognition Inc. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:admin@anywardrobe.com">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </div>
     </div>
   </footer>
 
